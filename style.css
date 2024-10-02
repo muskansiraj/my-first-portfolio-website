@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:@ 300;400;500;600;700;800 &display=swap');
+
+
+.header {
+    padding:10px;
+    background-color:darkslategray;
+    color:beige;
+    text-align: center;
+    font-size:x-large;
+    font-weight: 800;
+    font-display: none;
+}
+h1{
+    
+    margin-top: x-large 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: italic;
+    padding-top: 10px;
+    position: relative;
+    text-align: top 10px;
+    font-size: 70px;
+
+}
+
+.navbar {
+    margin: top ;
+    text-align: right;
+    padding-top: 1px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    
+    padding-right: 1px;
+}
+
+.navbar a.active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #777;
+    border-radius: 5px;
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(-90deg,darkslategray 65% ,beige 35%) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-image{
+
+display: flex;
+justify-content: center;
+align-items: center;
+ width: 420px;
+    height: 420px;
+    background-color:burlywood;
+    border-radius: 50%;
+    border: 50px solid darkslategray;
+    outline: 10px solid black;
+
+
+}
+.home-image img{
+    position:relative;
+    max-width: 350px;
+
+}
+.home-content{
+    max-width:600px;
+    color: beige;
+    text-align: center;
+}
+.home-content h1{
+    font-size: x-large;
+    line-height: 1.2;
+    color: black;
+    font-style: oblique;
+}
+.home-content h3{
+    font-style: italic;
+    font-size: larger;
+    color:aqua;
+    -webkit-text-stroke: .15px ,whitesmoke;
+    
+
+
+}
+.home-content p{
+    font-size: medium;
+    margin-top: 20px;
+    text-align: center;
+}
+.home-sci{
+    margin: 25px 0 40px;
+}
+.home-sci a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+    border: 2px,solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color:aqua;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+}
+.home-sci a:hover{
+
+    background: aqua;
+    color: aliceblue;
+    border-color:burlywood
+    box-shadow 0 0 10px;
+
+}
+.btn{
+    padding: 12px 35px;
+    background: black;
+    border-radius: 40px;
+    color: aqua;
+    font-size:  17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+box-shadow: 0 0 10px burlywood;
+transition: .5s;
+}
+.btn :hover{
+    box-shadow: none;
+
+}
+
+
+
